@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<something-else-entirely>
+	<proxool>
+		<alias>local</alias>
+		<driver-url>jdbc:mysql://localhost:3306/house_price?characterEncoding=utf-8</driver-url>
+		<driver-class>com.mysql.jdbc.Driver</driver-class>
+		<driver-properties>
+			<property name="user" value="root" />
+			<property name="password" value="root" />
+			<property name="autoReconnect" value="true" />			
+		</driver-properties>
+		<maximum-connection-count>15</maximum-connection-count>
+    	<minimum-connection-count>1</minimum-connection-count>
+    	<maximum-active-time>600000</maximum-active-time>
+    	<maximum-connection-lifetime>1800000</maximum-connection-lifetime>
+		<house-keeping-sleep-time>20000</house-keeping-sleep-time>
+		<house-keeping-test-sql>select 1 from dual</house-keeping-test-sql>
+		<test-before-use>true</test-before-use>
+		<verbose>false</verbose>
+		<trace>false</trace>
+		<statistics>1m,1h,1d</statistics>
+		<statistics-log-level>ERROR</statistics-log-level>	
+	</proxool>
+	
+</something-else-entirely>

@@ -1,0 +1,19 @@
+CREATE TABLE t_old_house(
+id NUMERIC(16) NOT NULL,
+title VARCHAR(256) NULL,
+url VARCHAR(256) NULL,
+city VARCHAR(16) NULL,
+region  VARCHAR(16) NULL,
+street  VARCHAR(64) NULL,
+community  VARCHAR(64) NULL,
+FLOOR  VARCHAR(32) NULL,
+totalPrice  NUMERIC(15,5) NULL,
+averagePrice NUMERIC(15,5) NULL,
+image VARCHAR(256) NULL,
+releaseDate VARCHAR(256) NULL,
+roomCount VARCHAR(64) NULL,
+towards VARCHAR(32) NULL,
+houseArea NUMERIC(10,5) NULL,
+decoration VARCHAR(32) NULL,
+taskid NUMERIC(32) NOT NULL
+)
